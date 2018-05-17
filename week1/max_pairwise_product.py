@@ -4,8 +4,6 @@
 n = int(input())
 a = [int(x) for x in input().split()]
 
-product = 0
-
 
 def find_max_two(data, n):
     max_data = data[0]
