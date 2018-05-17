@@ -1,6 +1,4 @@
 # Uses python3
-import sys
-import time
 
 # read data from screen:
 input_num = int(input())
@@ -11,6 +9,7 @@ fib_list = [0]*(input_num+1)
 if input_num > 0:
     fib_list[1] = 1
 
+
 def fibonacci(n):
     if n <= 1:
         return n
@@ -20,12 +19,5 @@ def fibonacci(n):
         fib_list[n] = fibonacci(n-1) + fibonacci(n-2)
         return fib_list[n]
 
-"""
-def fibonacci0(n):
-    if n <= 1:
-        return n
-    else:
-        return fibonacci0(n-1) + fibonacci0(n-2)
-"""
 data = fibonacci(input_num)
 print(data)
