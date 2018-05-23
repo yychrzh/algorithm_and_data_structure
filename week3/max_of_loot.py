@@ -2,10 +2,7 @@
 import sys
 
 
-def read_one_line_data(data_n, data_range):
-    # input_data = []
-    # input = sys.stdin.read()
-    # tokens = input.split()
+def read_one_line_data(data_range):
     input_data = [int(x) for x in input().split()]
     for i in range(len(input_data)):
         if input_data[i] < data_range[i][0] or input_data[i] > data_range[i][1]:
@@ -13,7 +10,7 @@ def read_one_line_data(data_n, data_range):
     return input_data
 
 
-# from max to min
+# sort from max to min
 def bubble_Sort(data_list):
     nums = [data_list[i] for i in range(len(data_list))]
     nums_index = [i for i in range(len(nums))]
@@ -52,12 +49,12 @@ def items_choose(items, max_cap):
 
 if __name__ == '__main__':
     # get the num of items and the capacity
-    [item_num, max_cap] = read_one_line_data(2, [[1, 1e3], [0, 2e6]])
+    [item_num, max_cap] = read_one_line_data([[1, 1e3], [0, 2e6]])
     # print("get input: ", item_num, max_cap)
     # get the value and weights of all items:
     items_info = []
     for i in range(item_num):
-        [value, weights] = read_one_line_data(2, [[0, 2e6], [0, 2e6]])
+        [value, weights] = read_one_line_data([[0, 2e6], [0, 2e6]])
         # print("get item%d: "%i, value, weights)
         items_info.append([value, weights])
     print("{:.4f}".format(items_choose(items_info, max_cap)))

@@ -6,15 +6,11 @@ import sys
 #  change the input value (an integer) into coins with denominations 1, 5, and 10.
 
 
-def read_one_line_data(data_n, data_range):
-    input_data = []
-    input = sys.stdin.read()
-    tokens = input.split()
-    for i in range(data_n):
-        data = int(tokens[i])
-        if data < data_range[i][0] or data > data_range[i][1]:
+def read_one_line_data(data_range):
+    input_data = [int(x) for x in input().split()]
+    for i in range(len(input_data)):
+        if input_data[i] < data_range[i][0] or input_data[i] > data_range[i][1]:
             raise Exception("input out of range!")
-        input_data.append(data)
     return input_data
 
 
@@ -27,5 +23,5 @@ def change_money(value):
 
 
 if __name__ == '__main__':
-    [money_value] = read_one_line_data(1, [[1, 1e3]])
+    [money_value] = read_one_line_data([[1, 1e3]])
     print(change_money(money_value))
