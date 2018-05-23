@@ -6,7 +6,7 @@ import sys
 #  change the input value (an integer) into coins with denominations 1, 5, and 10.
 
 
-def read_data_from_screen(data_n, data_range):
+def read_one_line_data(data_n, data_range):
     input_data = []
     input = sys.stdin.read()
     tokens = input.split()
@@ -27,5 +27,5 @@ def change_money(value):
 
 
 if __name__ == '__main__':
-    [money_value] = read_data_from_screen(1, [[1, 1e3]])
+    [money_value] = read_one_line_data(1, [[1, 1e3]])
     print(change_money(money_value))
