@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07916a80-2243-497d-b50a-fdbf7be486fa" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/week4/Improving_QuickSort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/binary_search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/majority_element.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/change_dp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/edit_distance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/primitive_calculator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/algorithm_and_data_structure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/algorithm_and_data_structure.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,96 +18,72 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/algorithm_and_data_structure$least_Common_multiple.coverage" NAME="least_Common_multiple Coverage Results" MODIFIED="1526573516186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week2" />
-    <SUITE FILE_PATH="coverage/algorithm_and_data_structure$max_of_loot.coverage" NAME="max_of_loot Coverage Results" MODIFIED="1527093277189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week3" />
-    <SUITE FILE_PATH="coverage/algorithm_and_data_structure$binary_search.coverage" NAME="binary_search Coverage Results" MODIFIED="1528627044037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week4" />
-    <SUITE FILE_PATH="coverage/algorithm_and_data_structure$max_pairwise_product.coverage" NAME="max_pairwise_product Coverage Results" MODIFIED="1526530165013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week1" />
-    <SUITE FILE_PATH="coverage/algorithm_and_data_structure$APlusB.coverage" NAME="APlusB Coverage Results" MODIFIED="1526530124890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week1" />
-    <SUITE FILE_PATH="coverage/algorithm_and_data_structure$Last_Digit_of_Fibonacci.coverage" NAME="Last_Digit_of_Fibonacci Coverage Results" MODIFIED="1526571184958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week2" />
-    <SUITE FILE_PATH="coverage/algorithm_and_data_structure$pisano_period.coverage" NAME="pisano_period Coverage Results" MODIFIED="1526658396306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week2" />
-    <SUITE FILE_PATH="coverage/algorithm_and_data_structure$max_ad_revenue.coverage" NAME="max_ad_revenue Coverage Results" MODIFIED="1527094810098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week3" />
-    <SUITE FILE_PATH="coverage/algorithm_and_data_structure$majority_element.coverage" NAME="majority_element Coverage Results" MODIFIED="1528630566324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week4" />
     <SUITE FILE_PATH="coverage/algorithm_and_data_structure$collecting_signatures.coverage" NAME="collecting_signatures Coverage Results" MODIFIED="1527611259604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week3" />
-    <SUITE FILE_PATH="coverage/algorithm_and_data_structure$greatest_common_divisor.coverage" NAME="greatest_common_divisor Coverage Results" MODIFIED="1526572223810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week2" />
-    <SUITE FILE_PATH="coverage/algorithm_and_data_structure$Fibonacci_Number.coverage" NAME="Fibonacci_Number Coverage Results" MODIFIED="1526531449639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week2" />
+    <SUITE FILE_PATH="coverage/algorithm_and_data_structure$max_ad_revenue.coverage" NAME="max_ad_revenue Coverage Results" MODIFIED="1527094810098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week3" />
+    <SUITE FILE_PATH="coverage/algorithm_and_data_structure$edit_distance.coverage" NAME="edit_distance Coverage Results" MODIFIED="1529244888568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week5" />
+    <SUITE FILE_PATH="coverage/algorithm_and_data_structure$max_of_loot.coverage" NAME="max_of_loot Coverage Results" MODIFIED="1527093277189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week3" />
+    <SUITE FILE_PATH="coverage/algorithm_and_data_structure$APlusB.coverage" NAME="APlusB Coverage Results" MODIFIED="1526530124890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week1" />
+    <SUITE FILE_PATH="coverage/algorithm_and_data_structure$majority_element.coverage" NAME="majority_element Coverage Results" MODIFIED="1528630566324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week4" />
     <SUITE FILE_PATH="coverage/algorithm_and_data_structure$money_change.coverage" NAME="money_change Coverage Results" MODIFIED="1527094625492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week3" />
+    <SUITE FILE_PATH="coverage/algorithm_and_data_structure$binary_search.coverage" NAME="binary_search Coverage Results" MODIFIED="1528627044037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week4" />
+    <SUITE FILE_PATH="coverage/algorithm_and_data_structure$pisano_period.coverage" NAME="pisano_period Coverage Results" MODIFIED="1526658396306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week2" />
+    <SUITE FILE_PATH="coverage/algorithm_and_data_structure$greatest_common_divisor.coverage" NAME="greatest_common_divisor Coverage Results" MODIFIED="1526572223810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week2" />
+    <SUITE FILE_PATH="coverage/algorithm_and_data_structure$least_Common_multiple.coverage" NAME="least_Common_multiple Coverage Results" MODIFIED="1526573516186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week2" />
+    <SUITE FILE_PATH="coverage/algorithm_and_data_structure$max_pairwise_product.coverage" NAME="max_pairwise_product Coverage Results" MODIFIED="1526530165013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week1" />
+    <SUITE FILE_PATH="coverage/algorithm_and_data_structure$primitive_calculator.coverage" NAME="primitive_calculator Coverage Results" MODIFIED="1529242894844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week5" />
+    <SUITE FILE_PATH="coverage/algorithm_and_data_structure$change_dp.coverage" NAME="change_dp Coverage Results" MODIFIED="1529237923121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week5" />
+    <SUITE FILE_PATH="coverage/algorithm_and_data_structure$Last_Digit_of_Fibonacci.coverage" NAME="Last_Digit_of_Fibonacci Coverage Results" MODIFIED="1526571184958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week2" />
+    <SUITE FILE_PATH="coverage/algorithm_and_data_structure$Fibonacci_Number.coverage" NAME="Fibonacci_Number Coverage Results" MODIFIED="1526531449639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week2" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Last_Digit_of_Fibonacci.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/week2/Last_Digit_of_Fibonacci.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="max_of_loot.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/week3/max_of_loot.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="binary_search.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/week4/binary_search.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9">
-              <caret line="21" column="47" lean-forward="true" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="majority_element.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/week4/majority_element.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="19" selection-start-line="19" selection-end-line="39" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sorting.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/algorithm and data structure/week4_divide_and_conquer/3_improving_quicksort/sorting.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="36" />
-              <folding>
-                <element signature="e#15#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Improving_QuickSort.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/week4/Improving_QuickSort.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="988">
-              <caret line="52" column="29" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="29" />
-              <folding>
-                <element signature="e#15#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="max_ad_revenue.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/week3/max_ad_revenue.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="39" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="money_change.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/week3/money_change.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" column="22" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="22" />
+            <state relative-caret-position="468">
+              <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="change_dp.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/week5/change_dp.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="primitive_calculator.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/week5/primitive_calculator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+              <folding>
+                <element signature="e#15#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit_distance.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/week5/edit_distance.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+              <folding>
+                <element signature="e#15#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="improving_sorting.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/week4/improving_sorting.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="759">
+              <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -136,13 +115,16 @@
         <option value="$PROJECT_DIR$/week2/least_Common_multiple.py" />
         <option value="$PROJECT_DIR$/week2/pisano_period.py" />
         <option value="$PROJECT_DIR$/week2/Last_Digit_of_sum_Fibonacci.py" />
-        <option value="$PROJECT_DIR$/week3/money_change.py" />
         <option value="$PROJECT_DIR$/week3/max_of_loot.py" />
         <option value="$PROJECT_DIR$/week3/max_ad_revenue.py" />
         <option value="$PROJECT_DIR$/week3/collecting_signatures.py" />
         <option value="$PROJECT_DIR$/week4/binary_search.py" />
         <option value="$PROJECT_DIR$/week4/majority_element.py" />
         <option value="$PROJECT_DIR$/week4/Improving_QuickSort.py" />
+        <option value="$PROJECT_DIR$/week3/money_change.py" />
+        <option value="$PROJECT_DIR$/week5/change_dp.py" />
+        <option value="$PROJECT_DIR$/week5/primitive_calculator.py" />
+        <option value="$PROJECT_DIR$/week5/edit_distance.py" />
       </list>
     </option>
   </component>
@@ -169,7 +151,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,39 +161,26 @@
             <path>
               <item name="algorithm_and_data_structure" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm_and_data_structure" type="462c0819:PsiDirectoryNode" />
-              <item name="week1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm_and_data_structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm_and_data_structure" type="462c0819:PsiDirectoryNode" />
-              <item name="week2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm_and_data_structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm_and_data_structure" type="462c0819:PsiDirectoryNode" />
-              <item name="week3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm_and_data_structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm_and_data_structure" type="462c0819:PsiDirectoryNode" />
               <item name="week4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm_and_data_structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="algorithm_and_data_structure" type="462c0819:PsiDirectoryNode" />
+              <item name="week5" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/algorithm and data structure/week4_divide_and_conquer/3_improving_quicksort/sorting.py" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/algorithm and data structure/week5_dynamic_programming1/3_edit_distance/edit_distance.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -226,7 +194,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.majority_element">
+  <component name="RunManager" selected="Python.edit_distance">
     <configuration name="binary_search" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm_and_data_structure" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -246,7 +214,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="collecting_signatures" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="change_dp" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm_and_data_structure" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -254,12 +222,31 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week3/collecting_signatures.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week5/change_dp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="edit_distance" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="algorithm_and_data_structure" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week5/edit_distance.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -284,7 +271,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="max_ad_revenue" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="primitive_calculator" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm_and_data_structure" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -292,50 +279,31 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week3/max_ad_revenue.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="money_change" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="algorithm_and_data_structure" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week3/money_change.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week5/primitive_calculator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.money_change" />
-      <item itemvalue="Python.max_ad_revenue" />
-      <item itemvalue="Python.collecting_signatures" />
       <item itemvalue="Python.binary_search" />
       <item itemvalue="Python.majority_element" />
+      <item itemvalue="Python.change_dp" />
+      <item itemvalue="Python.primitive_calculator" />
+      <item itemvalue="Python.edit_distance" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.edit_distance" />
+        <item itemvalue="Python.primitive_calculator" />
+        <item itemvalue="Python.change_dp" />
         <item itemvalue="Python.majority_element" />
         <item itemvalue="Python.binary_search" />
-        <item itemvalue="Python.collecting_signatures" />
-        <item itemvalue="Python.max_ad_revenue" />
-        <item itemvalue="Python.money_change" />
       </list>
     </recent_temporary>
   </component>
@@ -410,7 +378,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -418,9 +386,9 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32784432" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32715377" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14791666" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14925373" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -452,41 +420,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/week2/Last_Digit_of_Fibonacci.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week1/max_pairwise_product.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week3/max_of_loot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="79" selection-start-line="7" selection-start-column="79" selection-end-line="7" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week3/max_ad_revenue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="39" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week3/money_change.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/week3/collecting_signatures.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="950">
@@ -733,7 +666,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/week3/max_ad_revenue.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
+        <state relative-caret-position="648">
           <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="39" selection-end-column="70" />
         </state>
       </provider>
@@ -754,36 +687,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/week2/Last_Digit_of_Fibonacci.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
+        <state relative-caret-position="72">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week3/money_change.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/week3/max_of_loot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
+        <state relative-caret-position="900">
           <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/week4/binary_search.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="21" column="47" lean-forward="true" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week4/majority_element.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="19" selection-start-line="19" selection-end-line="39" selection-end-column="20" />
+        <state relative-caret-position="378">
+          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -797,10 +716,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week4/Improving_QuickSort.py">
+    <entry file="file://$PROJECT_DIR$/week4/Improving_QuickSort.py" />
+    <entry file="file://$PROJECT_DIR$/week3/money_change.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
-          <caret line="52" column="29" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="29" />
+        <state relative-caret-position="468">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week4/improving_sorting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week4/majority_element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="44" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week5/change_dp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/algorithm and data structure/week5_dynamic_programming1/3_edit_distance/edit_distance.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week5/primitive_calculator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding>
+            <element signature="e#15#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week5/edit_distance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
           <folding>
             <element signature="e#15#25#0" expanded="true" />
           </folding>
